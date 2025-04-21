@@ -1,0 +1,30 @@
+server:
+  port: 8083
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  cloud:
+    function:
+      definition: orderEventListener
+    stream:
+      bindings:
+        orderEventListener-in-0:
+          destination: order-created
+          group: consumer-service
+
+      rabbit:
+        bindings:
+          orderEventListener-in-0:
+            consumer:
+              auto-bind-dlq: true
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: orders_db

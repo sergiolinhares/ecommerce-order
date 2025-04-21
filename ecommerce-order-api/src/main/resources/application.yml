@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        producerOrder-out-0:
+          destination: order-created
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: orders_db
+
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql

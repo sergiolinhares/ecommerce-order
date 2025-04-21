@@ -1,0 +1,50 @@
+input OrderInput {
+    order: String!
+    origin: String!
+    total: Float!
+    createdAt: String!
+    items: [OrderItemInput!]!
+}
+
+input OrderItemInput {
+    name: String!
+    image: String!
+    qty: Int!
+    cost: Float!
+    currency: String!
+}
+
+# Tipo de saída
+type OrderItem {
+    name: String!
+    image: String!
+    qty: Int!
+    cost: Float!
+    currency: String!
+}
+
+type Order {
+    order: String!
+    origin: String!
+    total: Float!
+    createdAt: String!
+    items: [OrderItem!]!
+}
+
+# Queries e Mutations
+type Query {
+    placedOrders: [Order!]!
+}
+
+type Mutation {
+    # Mutation para publicar mensagem do pedido
+    publishPlacedOrderMessage(
+        order: OrderInput
+    ): PublishOrderResponse
+}
+
+type PublishOrderResponse {
+    success: Boolean!
+    message: String!
+    orderId: ID!
+}
