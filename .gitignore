@@ -1,0 +1,72 @@
+# Java
+*.class
+*.jar
+*.war
+*.iml
+*.log
+hs_err_pid*
+target/
+build/
+out/
+.gradle/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+.npm/
+dist/
+.next/
+.env*
+*.log
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+coverage-final.json
+*.lcov
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Frontend build output
+ecommerce-order-ui/.next/
+ecommerce-order-ui/out/

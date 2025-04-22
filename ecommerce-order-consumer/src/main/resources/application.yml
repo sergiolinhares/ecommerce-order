@@ -15,7 +15,7 @@ spring:
       bindings:
         orderEventListener-in-0:
           destination: order-created
-          group: consumer-service
+          group: ecommerce-order-consumer
       rabbit:
         bindings:
           orderEventListener-in-0:

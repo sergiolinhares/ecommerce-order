@@ -10,7 +10,7 @@ services:
       - mongodb
       - rabbitmq
     networks:
-      - minha-rede
+      - ecommerce
 
   ecommerce-order-consumer:
     build: ./ecommerce-order-consumer
@@ -19,15 +19,15 @@ services:
       - mongodb
       - rabbitmq
     networks:
-      - minha-rede
+      - ecommerce
 
-  frontend:
-    build: ecommerce-order-frontend
-    container_name: frontend
+  ecommerce-order-ui:
+    build: ecommerce-order-ui
+    container_name: ecommerce-order-ui
     ports:
       - "3000:3000"
     networks:
-      - minha-rede
+      - ecommerce
 
   mongodb:
     image: mongo:latest
@@ -38,7 +38,7 @@ services:
     volumes:
       - mongo_data:/data/db
     networks:
-      - minha-rede
+      - ecommerce
 
   rabbitmq:
     image: rabbitmq:3.9-management
@@ -53,7 +53,7 @@ services:
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
     networks:
-      - minha-rede
+      - ecommerce
 
 
 volumes:
@@ -61,5 +61,5 @@ volumes:
   rabbitmq_data:
 
 networks:
-  minha-rede:
+  ecommerce:
     driver: bridge

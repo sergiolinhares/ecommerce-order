@@ -5,42 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03d2379-45e6-4152-bbc8-a2c341882df9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/public/image-path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-consumer/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-consumer/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/OrderList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/apolloClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/alert.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/badge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/badge.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/dropdown-menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/select.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/skeleton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/spinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/spinner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/tabs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/toast.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/mockData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/public/image-path.png" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/public/image-path.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/apolloClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/alert.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/badge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/badge.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/dropdown-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/skeleton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/skeleton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/spinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/spinner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/toast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/toast.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/src/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-ui/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +79,11 @@
     "Docker.frontend/Dockerfile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/kdi-sefa/workspace/nfae",
+    "last_opened_file_path": "C:/workspace-pessoal/ecommerce-order",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,10 +100,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace-pessoal\ecommerce-order" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-frontend\public" />
       <recent name="C:\workspace-pessoal\ecommerce-order\frontend" />
       <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-consumer" />
       <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-api" />
-      <recent name="C:\workspace\ecommerce-order\ecommerce-order-ui\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace-pessoal\ecommerce-order\frontend\public" />
@@ -190,11 +191,25 @@
       <workItem from="1745292636714" duration="1058000" />
       <workItem from="1745322296727" duration="14213000" />
       <workItem from="1745341549820" duration="655000" />
+      <workItem from="1745342766602" duration="5801000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes">
+      <option name="closed" value="true" />
+      <created>1745343172254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745343172255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
