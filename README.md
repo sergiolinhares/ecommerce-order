@@ -61,12 +61,12 @@ Each service is built from its own `Dockerfile`; no local Java / Node toolchai
 
 ## 🏗 Architecture
 
-```mermaid
-  UI --Apollo--> API
-  API --publish--> Broker
-  Broker --consume--> Consumer
-  Consumer --persist--> DB
-  UI --query--> API
+```graph TD
+  UI[React Dashboard] -- Apollo --> API[GraphQL API]
+  API -- publish --> Broker[RabbitMQ]
+  Broker -- consume --> Consumer[Order Consumer]
+  Consumer -- persist --> DB[MongoDB]
+  UI -- query --> API
 ```
 
 ---
