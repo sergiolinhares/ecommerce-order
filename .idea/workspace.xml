@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b03d2379-45e6-4152-bbc8-a2c341882df9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ecommerce-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/EcommerceOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/model/OrderDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/model/OrderItemDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/producer/OrderProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/producer/StreamBridgeOrderProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/response/PublishOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/graphql/order.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/src/test/java/com/github/sergiolinhares/ecommerce_order_api/ecommerce_order_api/EcommerceOrderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/EcommerceOrderConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/consumer/OrderEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/model/OrderDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/model/OrderItemDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/java/com/github/sergiolinhares/ecommerce_order_consumer/order/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/test/java/com/github/sergiolinhares/ecommerce_order_consumer/EcommerceOrderConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/public/image-path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/apolloClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/badge.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/dropdown-menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/skeleton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/spinner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/tabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/components/ui/toast.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/src/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-ui/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2w3pFpZIio0zcV7OFhBail8tJ59" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml.frontend: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Docker.ecommerce-order-api/Dockerfile.executor": "Run",
+    "Docker.frontend/Dockerfile.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "Merging main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace-pessoal/ecommerce-order",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace-pessoal\ecommerce-order" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-frontend\public" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\frontend" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-consumer" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace-pessoal\ecommerce-order\frontend\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.frontend: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.frontend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="frontend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ecommerce-order-api/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="ecommerce-order-api/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="frontend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.frontend: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.frontend/Dockerfile" />
+        <item itemvalue="Docker.ecommerce-order-api/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b03d2379-45e6-4152-bbc8-a2c341882df9" name="Changes" comment="" />
+      <created>1745280010462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745280010462</updated>
+      <workItem from="1745280011566" duration="4415000" />
+      <workItem from="1745288879522" duration="2467000" />
+      <workItem from="1745291418393" duration="1096000" />
+      <workItem from="1745292636714" duration="1058000" />
+      <workItem from="1745322296727" duration="14213000" />
+      <workItem from="1745341549820" duration="655000" />
+      <workItem from="1745342766602" duration="5801000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes">
+      <option name="closed" value="true" />
+      <created>1745343172254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745343172255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ajuste front end e inclusao de dockerizacao para todas aplicacoes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
