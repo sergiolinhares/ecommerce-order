@@ -8,7 +8,6 @@ import { Badge } from './ui/badge';
 import { Skeleton } from './ui/skeleton';
 import { Alert, AlertTitle, AlertDescription } from './ui/alert';
 import { Spinner } from './ui/spinner';
-import {ArrowUpDown} from 'lucide-react';
 
 
 const GET_ORDERS = gql`
@@ -38,7 +37,6 @@ const Dashboard = () => {
   const [error, setError] = useState(null);
   const [orders, setOrders] = useState([]);
   const [filteredOrders, setFilteredOrders] = useState([]);
-  const [sortOrder, setSortOrder] = useState('desc');
   const [activeTab, setActiveTab] = useState('overview');
 
   const [stats, setStats] = useState({
@@ -80,47 +78,6 @@ const Dashboard = () => {
   useEffect(() => {
     setLoading(queryLoading);
   }, [queryLoading]);
-
-  // Effect for sorting orders when sortOrder changes
-  useEffect(() => {
-    if (orders.length > 0) {
-      // Create a new array to avoid mutating the original
-      const ordersCopy = [...orders];
-
-      // Sort the orders based on the createdAt date
-      const sortedOrders = ordersCopy.sort((a, b) => {
-        try {
-          // Parse the ISO date strings to Date objects
-          const dateA = new Date(a.createdAt);
-          const dateB = new Date(b.createdAt);
-
-          // Check if dates are valid
-          if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) {
-            console.error('Invalid date detected:', a.createdAt, b.createdAt);
-            return 0;
-          }
-
-          // Compare the dates based on the sort order
-          if (sortOrder === 'asc') {
-            return dateA.getTime() - dateB.getTime(); // Oldest first
-          } else {
-            return dateB.getTime() - dateA.getTime(); // Newest first
-          }
-        } catch (error) {
-          console.error('Error sorting dates:', error);
-          return 0;
-        }
-      });
-
-      // Update the filtered orders with the sorted orders
-      setFilteredOrders(sortedOrders);
-    }
-  }, [sortOrder, orders]);
-
-  const toggleSortOrder = () => {
-    // Toggle between ascending and descending order
-    setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-  };
 
   if (loading) {
     return (
@@ -199,35 +156,11 @@ const Dashboard = () => {
             <Card>
               <CardHeader className="pb-2">
                 <CardDescription>Total Value</CardDescription>
-                <CardTitle className="text-3xl">${stats.totalValue.toFixed(2)}</CardTitle>
+                <CardTitle className="text-3xl">R${stats.totalValue.toFixed(2)}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="text-xs text-muted-foreground">
                   Combined value of all orders
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className="pb-2">
-                <CardDescription>Web Orders</CardDescription>
-                <CardTitle className="text-3xl">{stats.webOrders}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="text-xs text-muted-foreground">
-                  Orders placed via website
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className="pb-2">
-                <CardDescription>Mobile Orders</CardDescription>
-                <CardTitle className="text-3xl">{stats.mobileOrders}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="text-xs text-muted-foreground">
-                  Orders placed via mobile app
                 </div>
               </CardContent>
             </Card>
@@ -276,13 +209,6 @@ const Dashboard = () => {
               <h2 className="text-2xl font-bold">All Orders</h2>
               <Badge>{filteredOrders.length}</Badge>
             </div>
-
-            <div>
-              <Button variant="outline" onClick={toggleSortOrder} className="flex items-center gap-2">
-                <ArrowUpDown className="h-4 w-4" />
-                Sort by Date {sortOrder === 'asc' ? '(Oldest)' : '(Newest)'}
-              </Button>
-            </div>
           </div>
 
           {filteredOrders.length === 0 ? (
@@ -307,7 +233,7 @@ const Dashboard = () => {
                       <CardDescription>{formatDate(order.createdAt)}</CardDescription>
                     </div>
                     <div className="mt-2 md:mt-0">
-                      <p className="text-xl font-bold">${order.total.toFixed(2)}</p>
+                      <p className="text-xl font-bold">R${order.total.toFixed(2)}</p>
                     </div>
                   </div>
                 </CardHeader>
@@ -320,10 +246,6 @@ const Dashboard = () => {
                           src={item.image} 
                           alt={item.name} 
                           className="w-12 h-12 object-cover rounded-md mr-4"
-                          onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = 'https://via.placeholder.com/50';
-                          }}
                         />
                         <div className="flex-1">
                           <p className="font-medium">{item.name}</p>

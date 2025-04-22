@@ -5,13 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03d2379-45e6-4152-bbc8-a2c341882df9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ecommerce-order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.junie/guidelines.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce-order-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-consumer/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce-order-frontend/public/image-path.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/OrderList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/apolloClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/alert.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/badge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/badge.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/dropdown-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/skeleton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/spinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/spinner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/toast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/components/ui/toast.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/src/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/mockData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-frontend/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +53,17 @@
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,29 +74,99 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.docker-compose.yml.frontend: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Docker.ecommerce-order-api/Dockerfile.executor": "Run",
+    "Docker.frontend/Dockerfile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sergio Linhares/Documents/ecommerce-order-ui",
+    "last_opened_file_path": "C:/kdi-sefa/workspace/nfae",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.tailwindcss",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace-pessoal\ecommerce-order\frontend" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-consumer" />
+      <recent name="C:\workspace-pessoal\ecommerce-order\ecommerce-order-api" />
       <recent name="C:\workspace\ecommerce-order\ecommerce-order-ui\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace-pessoal\ecommerce-order\frontend\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.frontend: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.frontend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="frontend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ecommerce-order-api/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="ecommerce-order-api/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="frontend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.frontend: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.frontend/Dockerfile" />
+        <item itemvalue="Docker.ecommerce-order-api/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,6 +188,8 @@
       <workItem from="1745288879522" duration="2467000" />
       <workItem from="1745291418393" duration="1096000" />
       <workItem from="1745292636714" duration="1058000" />
+      <workItem from="1745322296727" duration="14213000" />
+      <workItem from="1745341549820" duration="655000" />
     </task>
     <servers />
   </component>

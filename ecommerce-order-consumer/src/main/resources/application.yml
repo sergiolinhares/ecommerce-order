@@ -3,7 +3,7 @@ server:
 
 spring:
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
     username: guest
     password: guest
@@ -16,7 +16,6 @@ spring:
         orderEventListener-in-0:
           destination: order-created
           group: consumer-service
-
       rabbit:
         bindings:
           orderEventListener-in-0:
@@ -25,6 +24,6 @@ spring:
 
   data:
     mongodb:
-      host: localhost
+      host: mongodb
       port: 27017
       database: orders_db

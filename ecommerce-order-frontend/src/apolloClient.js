@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: 'http://localhost:8082/graphql',
+    uri: 'http://host.docker.internal:8082/graphql',
   }),
   cache: new InMemoryCache()
 });

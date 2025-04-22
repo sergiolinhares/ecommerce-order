@@ -1,0 +1,8 @@
+services:
+  ecommerce-order-api:
+    container_name: ecommerce-order-consumer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8083:8083"
