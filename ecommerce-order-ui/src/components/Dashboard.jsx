@@ -203,7 +203,7 @@ const Dashboard = () => {
                                                             {order.items.length} {order.items.length === 1 ? 'item' : 'items'}
                                                         </p>
                                                     </div>
-                                                    <p className="font-medium">${order.total.toFixed(2)}</p>
+                                                    <p className="font-medium">R${order.total.toFixed(2)}</p>
                                                 </div>
                                             </CardContent>
                                         </Card>
